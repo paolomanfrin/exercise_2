@@ -6,6 +6,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { MenuComponent } from './menu/menu.component';
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
