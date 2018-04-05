@@ -1,26 +1,26 @@
-#box {
-  border-radius: 50%;
-  height: 60px;
-  width: auto;
-}
 
-.menu-container {
-    /* ... */
-    display: flex;
-    justify-content: center;    /* Add this */
-    margin-left: 20px;
+
+// .menu-container {
+//     /* ... */
+//     display: flex;
+//     justify-content: center;    /* Add this */
+//     margin-left: 20px;
     
-  }
+//   }
 
-  .menu {
-    display: flex;
-    border: 10px solid rgb(255, 255, 255);
-    width: 900px;
-    justify-content: flex-start;
+//   .menu {
+//     display: flex;
+//     border: 10px solid rgb(255, 255, 255);
+//     width: 900px;
+//     justify-content: flex-start;
    
-  }
+//   }
 
-  .description {
-    margin-left: 20px;
-  }
+//   .description {
+//     margin-left: 20px;
+//   }
   
+  .container {
+    margin: 20px;
+    display:flex;
+}
